@@ -1,0 +1,51 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    
+    
+     //Dimensiones bordes del linearlayout
+    <dimen name="linear_top">16dp</dimen>
+    <dimen name="linear_right">16dp</dimen>
+    <dimen name="linear_left">16dp</dimen>
+    <dimen name="linear_botton">16dp</dimen>
+    
+    //Dimenciones para Edit Text y Text View
+    
+    <dimen name="tamaño_letra">20sp</dimen>
+    <dimen name="espacio_top">6dp</dimen>
+    
+    //Dimensiones card_View
+    
+    <dimen name="espacioCard_top">10dp</dimen>
+    <dimen name="cornerRadius">4dp</dimen>
+    <dimen name="anchoCard">300dp</dimen>
+    <dimen name="altoCard">270dp</dimen>
+    <dimen name="tamaño_letra_card">25sp</dimen>
+    <dimen name="tamaño_letra_card_dos">20sp</dimen>
+    <dimen name="espacio_top_card">6dp</dimen>
+
+
+    //Dimensiones card_View Fecha
+
+    <dimen name="fecha_card_top">80dp</dimen>
+    <dimen name="fecha_card_left">30dp</dimen>
+    <dimen name="tamano_fecha_letra">25sp</dimen>
+
+    //----------------------------------------------------------------------------------------------
+
+    //Dimesiones Segundo Activity
+
+    //Dimensiones linearLayout 1
+    <dimen name="sa_top">16dp</dimen>
+    <dimen name="sa_left">16dp</dimen>
+    <dimen name="sa_button">16dp</dimen>
+    <dimen name="sa_right">16dp</dimen>
+
+    <dimen name="sa_tamanoLetra_tv_confirmacionDatos">30sp</dimen>
+    <dimen name="sa_tamanoLetra_tv_datos">20sp</dimen>
+    <dimen name="sa_distancia_tv_datos">15dp</dimen>
+    <dimen name="sa_distancia_btn_editarDatos">25dp</dimen>
+    <dimen name="sa_tamanoLetra_btn_editarDatos">20sp</dimen>
+
+
+
+</resources>

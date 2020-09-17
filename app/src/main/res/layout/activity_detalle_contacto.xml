@@ -1,0 +1,77 @@
+<?xml version="1.0" encoding="utf-8"?>
+<android.support.constraint.ConstraintLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context=".DetalleContacto">
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:paddingTop="@dimen/sa_top"
+        android:paddingLeft="@dimen/sa_left"
+        android:paddingRight="@dimen/sa_right"
+        android:paddingBottom="@dimen/sa_button"
+        android:orientation="vertical">
+
+
+        <TextView
+            android:id="@+id/tv_confirmacionDatos"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_gravity="center"
+            android:text="@string/sa_tv_confirmarDatos"
+            android:textSize="@dimen/sa_tamanoLetra_tv_confirmacionDatos"/>
+
+        <TextView
+            android:id="@+id/tv_nombre"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_marginTop="@dimen/sa_distancia_tv_datos"
+            android:textSize="@dimen/sa_tamanoLetra_tv_datos"
+            android:text="@string/sa_tv_nombre" />
+        <TextView
+            android:id="@+id/tv_fecha"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:textSize="@dimen/sa_tamanoLetra_tv_datos"
+            android:layout_marginTop="@dimen/sa_distancia_tv_datos"
+            android:text="@string/sa_tv_fecha" />
+        <TextView
+            android:id="@+id/tv_telefono"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:textSize="@dimen/sa_tamanoLetra_tv_datos"
+            android:layout_marginTop="@dimen/sa_distancia_tv_datos"
+            android:text="@string/sa_tv_telefono" />
+        <TextView
+            android:id="@+id/tv_email"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:textSize="@dimen/sa_tamanoLetra_tv_datos"
+            android:layout_marginTop="@dimen/sa_distancia_tv_datos"
+            android:text="@string/sa_tv_email" />
+        <TextView
+            android:id="@+id/tv_descripcion"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:textSize="@dimen/sa_tamanoLetra_tv_datos"
+            android:layout_marginTop="@dimen/sa_distancia_tv_datos"
+            android:text="@string/sa_tv_descripcion" />
+
+        <Button
+            android:id="@+id/btn_editarDatos"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="@string/sa_btn_editarDatos"
+            android:textSize="@dimen/sa_tamanoLetra_btn_editarDatos"
+            android:layout_marginTop="@dimen/sa_distancia_btn_editarDatos"
+            android:theme="@style/MiBotonRaised"
+            android:onClick="editar"
+            android:layout_gravity="center"/>
+
+
+    </LinearLayout>
+
+</android.support.constraint.ConstraintLayout>

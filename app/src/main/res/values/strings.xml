@@ -1,0 +1,30 @@
+<resources>
+    <string name="app_name">EjercicioIntentDatos</string>
+
+    //textos activity uno
+
+    <string name="et_nombre">Nombre Completo</string>
+    <string name="tv_setDate">Set Date     </string>
+    <string name="tv_fecha">Fechas de Nacimiento</string>
+    <string name="btn_cancel">Cancel</string>
+    <string name="btn_ok">Ok</string>
+    <string name="et_telefono">Telefono</string>
+    <string name="et_email">Email</string>
+    <string name="tv_descripcion">Descripcion de Contacto</string>
+    <string name="btn_siguiente">Siguiente</string>
+    <string name="tv_fecha_nacimiento">Haz click aqui</string>
+    
+    //------------------------------------------------------------------------------------------
+    
+    //textos activity dos
+    
+    <string name="sa_tv_confirmarDatos">Confirmar Datos</string>
+    <string name="sa_btn_editarDatos">Editar Datos</string>
+    <string name="sa_tv_nombre">Nombre: </string>
+    <string name="sa_tv_fecha">Fecha: </string>
+    <string name="sa_tv_telefono">Telefono: </string>
+    <string name="sa_tv_email">Email: </string>
+    <string name="sa_tv_descripcion">Descripcion</string>
+
+
+</resources>
